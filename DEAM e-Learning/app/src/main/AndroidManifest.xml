@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="synerg.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Δ.Ε.Α.Μ. e-Learing"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearning"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ExtraMenu"></activity>
+        <activity android:name=".TyposMathiti" />
+        <activity
+            android:name=".Thewria"
+            android:label="Δ.Ε.Α.Μ. e-Learing" />
+        <activity android:name=".Apotelesmata" />
+        <activity android:name=".Testakia" />
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
